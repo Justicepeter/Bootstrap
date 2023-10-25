@@ -1,0 +1,75 @@
+.masthead{
+background-size: cover;
+min-height: 100vh;
+position: relative;
+color: white;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+margin-bottom: 100px;
+}
+
+.free{
+font-size:16px;
+}
+
+.color-overlay{
+position: absolute;
+width: 50%;
+height: 100%;
+background-color: rgba(0, 0, 0, .2);
+}
+
+@media (max-width:768px){
+
+.masthead{
+min-height: 30vh;
+
+}
+.free{
+
+font-size: calc(1.525rem);
+}
+}
+
+
+
+.second-bg{
+
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    
+
+}
+
+.lotxt{
+    font-size: 16px;
+    
+}
+
+
+@media (max-width:768px){
+
+    .second-bg{
+    min-height: 30vh;
+    
+    }
+    .lotxt{
+    
+    font-size: calc(1.525rem);
+    }
+    }
+
+
+    .bus{
+
+    color: #999999;
+    text-decoration: none;
+    }
+    
+
+    .txt-deco{
+
+    text-decoration: none;
+    }
